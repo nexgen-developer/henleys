@@ -1,0 +1,795 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1d860dd6-f939-49ad-b78c-d9ca851b4724": {
+      "type": "otto-image",
+      "disabled": true,
+      "settings": {
+        "image_name": "Xmas",
+        "image_width_desktop": 100,
+        "image_width_mobile": 100,
+        "image_margin_bottom": 20,
+        "show_content": false,
+        "content_width": 60,
+        "content_background_color": "",
+        "content_text_color": "#000000",
+        "mobile_content_background_color": "",
+        "mobile_content_text_color": "#000000",
+        "content_horizontal_alignment": "center",
+        "content_vertical_alignment": "center",
+        "header_font_tag": "h1",
+        "header_font_size": 2,
+        "header_font_size_mobile": 2,
+        "subheader_font_tag": "h2",
+        "subheader_font_size": 1,
+        "subheader_font_size_mobile": 1,
+        "body_font_tag": "p",
+        "body_font_size": 1,
+        "body_font_size_mobile": 1,
+        "button_background_color": "#000000",
+        "button_background_hover_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_text_hover_color": "#000000"
+      }
+    },
+    "e0946f9f-e0fa-47e1-908b-4866f10b1c81": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_AeT7KP": {
+          "type": "image",
+          "name": "Base",
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_Winter_Base.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Winter_Base.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "shop now",
+            "link": "shopify://collections/new-in",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_Pg3Arg": {
+          "type": "image",
+          "name": "27th Feb (Pay Day)",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_Pay_Day_copy_eb8af2b5-3839-4ef2-becd-69d36acbac85.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Pay_Day_copy_c5122dc3-f149-4ce2-b495-439d4da27b8b.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "Button Label",
+            "link": "shopify://collections/new-in",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_AeT7KP",
+        "image_Pg3Arg"
+      ],
+      "name": "Full Width Banner",
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 10,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 15,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
+    "9e2400a3-bdb2-4ec4-a76b-5ea5ae61cfdf": {
+      "type": "halo-custom-text-button",
+      "settings": {
+        "show_custom_text": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "style": "1",
+        "block_title": "",
+        "block_content": "Rooted in British heritage and built for modern life, Henleys blends classic design with bold attitude to create timeless streetwear.",
+        "block_align": "center",
+        "btn": "1",
+        "btn_text": "",
+        "btn_link": "",
+        "background_color": "#fff",
+        "fontSize": 12,
+        "fontSizem": 12,
+        "text_color": "#000000"
+      }
+    },
+    "custom_liquid_7q94UJ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  /* Desktop: images side by side */\n  .flush-images {\n    display: flex;\n    flex-wrap: nowrap;\n    gap: 0;\n  }\n\n  .flush-images a {\n    flex: 1 1 50%;\n    width: 50%;\n    display: block;\n    overflow: hidden;\n  }\n\n  .flush-images img {\n    width: 100%;\n    height: auto;\n    display: block;\n    transition: transform 0.4s ease;\n  }\n\n  /* Zoom on hover (desktop only) */\n  @media (min-width: 769px) {\n    .flush-images a:hover img {\n      transform: scale(1.05);\n    }\n  }\n\n  /* Mobile: horizontal scroll */\n  @media (max-width: 768px) {\n    .flush-images {\n      display: flex;\n      overflow-x: auto;\n      scroll-snap-type: x mandatory;\n      -webkit-overflow-scrolling: touch;\n    }\n\n    .flush-images a {\n      flex: 0 0 100%; /* Each slide takes full width */\n      scroll-snap-align: start;\n    }\n\n    /* Hide scrollbar */\n    .flush-images::-webkit-scrollbar {\n      display: none;\n    }\n    .flush-images {\n      -ms-overflow-style: none;\n      scrollbar-width: none;\n    }\n\n    /* Dots below the images */\n    .flush-dots {\n      display: flex;\n      justify-content: center;\n      gap: 8px;\n      margin-top: 8px;\n    }\n\n    .flush-dots span {\n      width: 8px;\n      height: 8px;\n      background: #ccc;\n      border-radius: 50%;\n      display: inline-block;\n      transition: background 0.3s ease;\n    }\n\n    .flush-dots span.active {\n      background: #000;\n    }\n  }\n</style>\n\n<div class=\"flush-wrapper\">\n  <div class=\"flush-images\" id=\"flush-slider\">\n    <a href=\"https://henleysapparel.com/collections/t-shirts\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0818/2412/1171/files/QUICK_LINKS_-_Tees_345b8863-ec93-42a8-9029-1527587e0778.png?v=1755184572\" alt=\"Shop Tees\">\n    </a>\n    <a href=\"https://henleysapparel.com/collections/shorts\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0818/2412/1171/files/QUICK_LINKS_-_Shorts_2952b394-c9dd-4787-9087-552e3f5c61c5.png?v=1755514710\" alt=\"Shop Shorts\">\n    </a>\n  </div>\n\n  <!-- Dots below images (not absolutely positioned) -->\n  <div class=\"flush-dots\" id=\"flush-dots\">\n    <span class=\"active\"></span>\n    <span></span>\n  </div>\n</div>\n\n<script>\n  const slider = document.getElementById('flush-slider');\n  const dots = document.getElementById('flush-dots').children;\n\n  slider.addEventListener('scroll', () => {\n    const index = Math.round(slider.scrollLeft / slider.clientWidth);\n    for (let i = 0; i < dots.length; i++) {\n      dots[i].classList.toggle('active', i === index);\n    }\n  });\n</script>"
+      }
+    },
+    "6a2d9346-e7f0-4e21-a77f-79eeac908797": {
+      "type": "halo-product-block",
+      "custom_css": [],
+      "settings": {
+        "display_product_block": true,
+        "container": "1770",
+        "boxed_container": false,
+        "padding_top": 40,
+        "padding_bottom": 80,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 70,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "HOODIES",
+        "block_text": "Fresh Designs—New Tones",
+        "block_title_align": "left",
+        "button_label": "view all",
+        "button_link": "shopify://collections/hoodies",
+        "block_layout": "slider",
+        "col": "narrow",
+        "block_collection": "hoodies",
+        "block_limit": 4,
+        "block_image_ratio": "portrait",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": false,
+        "block_per_row": "4",
+        "block_infinite_scroll": false,
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "halo_fullwidth_banner_DqHYLt": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_McH4zY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_Polos.png",
+            "mobile_image": "shopify://shop_images/QUICK_LINKS_-_Polos_8e669a1f-3f14-4642-8aa7-e1e7c6c95ed8.png",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/polos",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_McH4zY"
+      ],
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 15,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
+    "halo_product_block_JWm77X": {
+      "type": "halo-product-block",
+      "settings": {
+        "display_product_block": true,
+        "container": "1770",
+        "boxed_container": false,
+        "padding_top": 40,
+        "padding_bottom": 80,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 70,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 60,
+        "block_title": "JEANS",
+        "block_text": "Built For Everyday Wear",
+        "block_title_align": "left",
+        "button_label": "view all",
+        "button_link": "shopify://collections/jeans",
+        "block_layout": "slider",
+        "col": "narrow",
+        "block_collection": "jeans",
+        "block_limit": 4,
+        "block_image_ratio": "portrait",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": false,
+        "block_per_row": "4",
+        "block_infinite_scroll": false,
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "halo_fullwidth_banner_g9TKj8": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_6xGm8n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FOOTER_-_Desktop_7a8f4ea4-8cdf-4666-8e6c-22a2f80edecc.png",
+            "mobile_image": "shopify://shop_images/FOOTER_-_Mobile_86cf7ae4-2fae-450d-987f-1bca6ed1e7ac.png",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/polos",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_6xGm8n"
+      ],
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
+    "c5e2553f-2344-4dbb-af98-d66eeadaef27": {
+      "type": "halo-newsletter",
+      "custom_css": [
+        ".halo-block-header .desc {color: white;}",
+        ".halo-block-header {position: relative; margin: 0 0 1px;}",
+        ".newsletter-form__button {font-size: 12px !important;}"
+      ],
+      "settings": {
+        "show_newsletter": true,
+        "padding_top": 1,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 1,
+        "padding_bottom_mobile": 0,
+        "show_newsletter_bg_img": false,
+        "newsletter_bg_position_x": "center",
+        "newsletter_bg_position_y": "center",
+        "newsletter_bg_repeat": "no-repeat",
+        "newsletter_bg_attachment": "scroll",
+        "newsletter_bg_size": "cover",
+        "newsletter_heading": "",
+        "newsletter_text": "<p><strong>SIGN UP FOR AN EXCLUSIVE 20% OFF</strong></p>",
+        "newsletter_text_2": "<p>Sign up for exclusive deals, latest drops and more.</p>",
+        "block_bg": "#efefef",
+        "newsletter_color": "#000000",
+        "newsletter_border": "#000000",
+        "newsletter_input_bg": "#FFFFFF",
+        "newsletter_input_color": "#000000"
+      }
+    },
+    "halo_slideshow_mgP3ca": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "image_9F6U8C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HENLEYS_7300037_2.jpg",
+            "title": "INTRODUCING SS25",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "#",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 22,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 12,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase",
+            "button_font_size": 16,
+            "button_mobile_font_size": 13
+          }
+        },
+        "image_dHLUja": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HENLEYS_7300037_2_1.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "#",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 22,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 12,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase",
+            "button_font_size": 16,
+            "button_mobile_font_size": 13
+          }
+        },
+        "image_VaneiX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "INTRODUCING SS24",
+            "subtitle": "",
+            "text": "Henleys, a Manchester fashion brand, iscelebrated for its urban style and contemporarydesigns. Known for bold graphics and high quality.",
+            "btn": "2",
+            "btn_text": "Discover Henleys",
+            "link": "#",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase",
+            "button_font_size": 16,
+            "button_mobile_font_size": 15
+          }
+        }
+      },
+      "block_order": [
+        "image_9F6U8C",
+        "image_dHLUja",
+        "image_VaneiX"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 5,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": false,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": true,
+        "block_dots_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "block_dots_color": "",
+        "block_dots_border": "#000000",
+        "block_arrows": false,
+        "block_arrows_bg": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "block_arrows_color": "",
+        "block_arrows_border": "#000000",
+        "lookbook_style": "1"
+      }
+    },
+    "c87b5a9e-f50e-48d4-93f2-38aa2d4f1d29": {
+      "type": "halo-custom-text-button",
+      "disabled": true,
+      "custom_css": [
+        ".custom-text-content {font-size: 10px;}",
+        ".title {font-weight: 500;}",
+        ".custom-text-button .halo-content .title {font-size: 17px;}"
+      ],
+      "settings": {
+        "show_custom_text": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "style": "1",
+        "block_title": "<a href=\"https://www.duckandcover.co.uk/pages/denim-guide\">EXPLORE OUR DENIM GUIDE</a>",
+        "block_content": "DUCK & COVER CLASSIC FITS AND WASHES",
+        "block_align": "center",
+        "btn": "1",
+        "btn_text": "",
+        "btn_link": "shopify://pages/denim-guide",
+        "background_color": "#000",
+        "fontSize": 26,
+        "fontSizem": 26,
+        "text_color": "#ffffff"
+      }
+    },
+    "7b086cbe-21cf-4ad3-b53f-f90c6529e0f1": {
+      "type": "halo-custom-text-button",
+      "disabled": true,
+      "custom_css": [
+        ".custom-text-content {font-size: 10px;}",
+        ".title {font-weight: 500;}",
+        ".custom-text-button .halo-content .title {font-size: 17px;}"
+      ],
+      "settings": {
+        "show_custom_text": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "style": "1",
+        "block_title": "<a href=\"https://www.duckandcover.co.uk/collections/clearance\">SHOP CLEARANCE</a>",
+        "block_content": "SHOP NOW & GRAB YOURSELF A BARGAIN",
+        "block_align": "center",
+        "btn": "1",
+        "btn_text": "",
+        "btn_link": "",
+        "background_color": "#c62828",
+        "fontSize": 26,
+        "fontSizem": 26,
+        "text_color": "#ffffff"
+      }
+    },
+    "halo_custom_text_button_Awhwpn": {
+      "type": "halo-custom-text-button",
+      "disabled": true,
+      "settings": {
+        "show_custom_text": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "style": "1",
+        "block_title": "",
+        "block_content": "Bold graphics and high-quality materials, our garments blend edgy urban vibes with sophistication. From graphic tees to jackets, Henleys resonates with modern fashion enthusiasts, setting trends worldwide.",
+        "block_align": "center",
+        "btn": "1",
+        "btn_text": "",
+        "btn_link": "",
+        "background_color": "#fff",
+        "fontSize": 12,
+        "fontSizem": 12,
+        "text_color": "#000000"
+      }
+    },
+    "f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4": {
+      "type": "halo-image-gallery",
+      "blocks": {
+        "template--16937253765370__f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Polos_f0f1bbe4-2018-4344-8146-7619c6b242d2.png",
+            "block-heading": "",
+            "btn_text": "",
+            "link": "shopify://collections/polos"
+          }
+        },
+        "image_RBtCGD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Joggers_89bb1029-56ba-429e-b941-7565334df0fd.png",
+            "block-heading": "",
+            "btn_text": "",
+            "link": "shopify://collections/jogger"
+          }
+        },
+        "image_dpQzKJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tees_4cd65ecf-73b3-4052-8b33-7130a52edbd7.png",
+            "block-heading": "",
+            "btn_text": "",
+            "link": "shopify://collections/t-shirts"
+          }
+        },
+        "image_8aBeT4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shorts_b20dc6a0-5a85-40ea-90a3-880f051a8ae2.png",
+            "block-heading": "",
+            "btn_text": "",
+            "link": "shopify://collections/shorts"
+          }
+        }
+      },
+      "block_order": [
+        "template--16937253765370__f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4-image-1",
+        "image_RBtCGD",
+        "image_dpQzKJ",
+        "image_8aBeT4"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_image_gallery": true,
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "grid",
+        "block_mobile_layout": "swipe",
+        "col": "wide",
+        "col_border": 0,
+        "block_action": "link",
+        "block_btn": "2",
+        "block_view_btn": "1",
+        "block_view_btn_text": "",
+        "block_view_btn_link": "",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true,
+        "main-image": "shopify://shop_images/AW24_Collection.png",
+        "main-heading": "",
+        "main-btn": "",
+        "main-link": "shopify://collections/all"
+      }
+    },
+    "halo_featured_brand_Hm6yjL": {
+      "type": "halo-featured-brand",
+      "blocks": {
+        "brand_t6RgFX": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/QUICK_LINKS_-_Tees.png",
+            "link": "shopify://collections/t-shirts"
+          }
+        },
+        "brand_fRFVXV": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/QUICK_LINKS_-_Shorts.png",
+            "link": "shopify://collections/shorts"
+          }
+        },
+        "brand_7XKgpn": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/QUICK_LINKS_-_Polos.png",
+            "link": "shopify://collections/polos"
+          }
+        },
+        "brand_LLaEi7": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify://shop_images/QUICK_LINKS_-_Joggers.png",
+            "link": "shopify://collections/jogger"
+          }
+        }
+      },
+      "block_order": [
+        "brand_t6RgFX",
+        "brand_fRFVXV",
+        "brand_7XKgpn",
+        "brand_LLaEi7"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-brand.presets.name",
+      "settings": {
+        "show_featured_brand": true,
+        "container": "full",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "slider",
+        "block_mobile_layout": "swipe",
+        "col": "narrow",
+        "layout_style": "2",
+        "link_title": "",
+        "link_url": "",
+        "block_per_row": "4",
+        "block_show": "4",
+        "block_dots": false,
+        "block_arrows": true,
+        "image_ratio": "adapt",
+        "portrait_aspect_ratio": 112
+      }
+    },
+    "169381588532bf4d05": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "1d860dd6-f939-49ad-b78c-d9ca851b4724",
+    "e0946f9f-e0fa-47e1-908b-4866f10b1c81",
+    "9e2400a3-bdb2-4ec4-a76b-5ea5ae61cfdf",
+    "custom_liquid_7q94UJ",
+    "6a2d9346-e7f0-4e21-a77f-79eeac908797",
+    "halo_fullwidth_banner_DqHYLt",
+    "halo_product_block_JWm77X",
+    "halo_fullwidth_banner_g9TKj8",
+    "c5e2553f-2344-4dbb-af98-d66eeadaef27",
+    "halo_slideshow_mgP3ca",
+    "c87b5a9e-f50e-48d4-93f2-38aa2d4f1d29",
+    "7b086cbe-21cf-4ad3-b53f-f90c6529e0f1",
+    "halo_custom_text_button_Awhwpn",
+    "f0a1f009-f7e3-4ad1-9307-9fcf06cf17a4",
+    "halo_featured_brand_Hm6yjL",
+    "169381588532bf4d05"
+  ]
+}

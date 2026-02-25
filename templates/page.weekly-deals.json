@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_breadcrumb": true,
+        "breadcrumb_alignment": "left",
+        "show_page_title": true,
+        "page_title_alignment": "center",
+        "container": "1370",
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 50,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "25bcb4cf-3aa4-4cb5-b78f-4074368db4a6": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "template--16854807609594__25bcb4cf-3aa4-4cb5-b78f-4074368db4a6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DACAW23-Weekly-Deals-banner.jpg",
+            "mobile_image": "shopify://shop_images/DACAW23-Weekly-Deals-MOB-PAGE-BANNER.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "template--16854807609594__25bcb4cf-3aa4-4cb5-b78f-4074368db4a6-image-1"
+      ],
+      "custom_css": [
+        ".text {font-size: 18px; padding-top: 3px;}"
+      ],
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0,
+        "block_title": "WEEKLY DEALS",
+        "block_text": "Check back for fresh new deals. Stack up to 5 discount codes at once and make the most of our multiple offers. Please note only one discount will apply per product.",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "",
+        "block_dots_color": "",
+        "block_dots_border": "",
+        "block_arrows": true,
+        "block_arrows_bg": "",
+        "block_arrows_color": "",
+        "block_arrows_border": "",
+        "lookbook_style": "1"
+      }
+    },
+    "7c7325b7-36f5-4b92-b68d-b75e26234dee": {
+      "type": "halo-slideshow",
+      "blocks": {
+        "659f475b-6c7e-4820-a19c-4856e4e97f69": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paddys-Day-DAC-WD-PAGE-DESKTOP.jpg",
+            "mobile_image": "shopify://shop_images/Paddys-Day-DAC-WD-PAGE-MOB.jpg",
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/new-in",
+            "container_content": "1570",
+            "position": "left",
+            "alignment": "left",
+            "lookbook": false,
+            "product_1": "",
+            "point_x_1": 10,
+            "point_y_1": 10,
+            "product_2": "",
+            "point_x_2": 10,
+            "point_y_2": 10,
+            "product_3": "",
+            "point_x_3": 10,
+            "point_y_3": 10,
+            "product_4": "",
+            "point_x_4": 10,
+            "point_y_4": 10,
+            "product_5": "",
+            "point_x_5": 10,
+            "point_y_5": 10,
+            "show_background_overlay": false,
+            "transparent_button": false,
+            "background_color": "",
+            "background_overlay": "#000000",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "659f475b-6c7e-4820-a19c-4856e4e97f69"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_slideshow": true,
+        "container": "full",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "center",
+        "block_layout": "1",
+        "block_content": "absolute",
+        "block_content_style": "1",
+        "block_fade": true,
+        "block_autoplay": true,
+        "block_autoplay_time": 5,
+        "block_dots": false,
+        "block_dots_bg": "",
+        "block_dots_color": "",
+        "block_dots_border": "",
+        "block_arrows": true,
+        "block_arrows_bg": "",
+        "block_arrows_color": "",
+        "block_arrows_border": "",
+        "lookbook_style": "1"
+      }
+    },
+    "weekly_deal_pycTfV": {
+      "type": "weekly-deal",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/DACAW23-Weekly-Deals-5pk-tee-tile-1.gif",
+        "title": "5PK Graphic Tee's for £19.99",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">From £19.99</div>\n   <div class=\"price-item price-item--regular\">£75</div>\n</div>\n<label>\n73% OFF </label>",
+        "button1": "Get deal*",
+        "url": "shopify://collections/5pk-graphic-t-shirts",
+        "CustomCode": "DAC5PK",
+        "description": "Each Tee is equal to only £4 each for Comonwell or Ventmans Packs when you use code: DAC5PK at checkout! This ideal is not to be missed!"
+      }
+    },
+    "halo_product_block_7_K67Hpa": {
+      "type": "halo-product-block-7",
+      "disabled": true,
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "5pk-graphic-t-shirts",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_fNeADK": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DAC-BF-W3-BOXER-TILE-1.jpg",
+        "title": "Extra 20% OFF 3PK Boxers",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">From £7.50</div>\n   <div class=\"price-item price-item--regular\"></div>\n</div>\n<label>\nExtra 20% OFF </label>",
+        "button1": "Get deal*",
+        "url": "shopify://collections/3pk-boxer-deal",
+        "CustomCode": "BOXER20",
+        "description": "Grab an extra 20% OFF these 3PK Boxers, prices range from £7.50 - £8! Just use code: BOXER20"
+      }
+    },
+    "halo_product_block_7_GbNKBT": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "3pk-boxer-deal",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_Dam89K": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DACAW23-Weekly-Deals-SCHWARTZ-TIL.gif",
+        "title": "Shwartz Jog Shorts for £9.99",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">£9.99</div>\n   <div class=\"price-item price-item--regular\">£35</div>\n</div>\n<label>Save £25.01 </label>",
+        "button1": "Get deal*",
+        "url": "shopify://collections/shwartz-shorts",
+        "CustomCode": "DACSHWARTZ",
+        "description": "Ready to revamp your wardrobe for the warmer months? Look no further than our exclusive deal on Shwartz jog shorts! Use code DACSHWARTZ to snag them for just £9.99."
+      }
+    },
+    "halo_product_block_7_cLkawK": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "shwartz-shorts",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_PkPeg3": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DAC-BF-WEEK-POLO-TILE_b71cfbeb-5718-4003-9472-387cd9cb3e22.jpg",
+        "title": "Selected Polos for £7.75",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">£7.75</div>\n   <div class=\"price-item price-item--regular\">£35</div>\n</div>\n<label>Save £24.25 </label>",
+        "button1": "Get deal*",
+        "url": "https://www.duckandcover.co.uk/collections/duck-and-cover-polo-deal",
+        "CustomCode": "POLODAC",
+        "description": "Upgrade your look and stay comfortable all season long with these stylish and versatile polos. Get them for just £7.75 when you use code POLODAC at checkout."
+      }
+    },
+    "halo_product_block_7_tEezFC": {
+      "type": "halo-product-block-7",
+      "settings": {
+        "display_product_block": true,
+        "style": "1",
+        "container": "1770",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "block_title": "",
+        "block_text": "",
+        "block_title_align": "left",
+        "col": "wide",
+        "block_collection": "duck-and-cover-polo-deal",
+        "block_limit": 10,
+        "block_image_ratio": "adapt",
+        "portrait_aspect_ratio": 133,
+        "show_add_to_cart": true,
+        "show_view_all": false,
+        "view_all_text": "View All",
+        "button_style": "link",
+        "block_show": "3.5",
+        "block_dots": false,
+        "block_arrows": true
+      }
+    },
+    "weekly_deal_43UAzQ": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DAC-CLEARANCE-FELLA-TILE.jpg",
+        "title": "Felaweres Jog Set in Russet",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">£18</div>\n   <div class=\"price-item price-item--regular\">£70</div>\n</div>\n<label>Save £52 </label>",
+        "button1": "Get deal*",
+        "url": "shopify://products/felaweres-jog-set-russet",
+        "CustomCode": "CLEARANCE20",
+        "description": "Grab our jogger and crew sweatshirt set for just £18 with code CLEARANCE20. Stay cosy and stylish this March. Shop now!"
+      }
+    },
+    "weekly_deal_7TTXB4": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DAC-CLEARANCE-MAYLEAD-TILE_0acd3212-2d9c-4bf5-80f3-0d5bc21234ba.jpg",
+        "title": "Maylead Tinted Blue Jeans",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">£13</div>\n   <div class=\"price-item price-item--regular\">£60</div>\n</div>\n<label>Save £47 </label>",
+        "button1": "Get deal*",
+        "url": "shopify://products/maylead-slim-fit-jeans-tinted-blue",
+        "CustomCode": "CLEARANCE20",
+        "description": "Get ready to elevate your style with our exclusive end-of-season offer! Score trendy JEANS for just £11 using code CLEARANCE20"
+      }
+    },
+    "weekly_deal_mhBCxL": {
+      "type": "weekly-deal",
+      "settings": {
+        "image": "shopify://shop_images/DAC-CLEARANCE-FELL-TILE.jpg",
+        "title": "Felaweres Crew for £7",
+        "CustomPrice": "<div class=\"price  price--on-sale \">\n   <div class=\"price-item price-item--sale\">£7</div>\n   <div class=\"price-item price-item--regular\">£30</div>\n</div>\n<label>Save £13 </label>",
+        "button1": "Get deal*",
+        "url": "shopify://collections/felaweres-crew",
+        "CustomCode": "CLEARANCE20",
+        "description": "Stay cosy this season with our crew sweatshirts, now available for just £7! Don't miss out on this unbeatable deal – use code CLEARANCE20 at checkout for an extra discount. Hurry, while stocks last!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "25bcb4cf-3aa4-4cb5-b78f-4074368db4a6",
+    "7c7325b7-36f5-4b92-b68d-b75e26234dee",
+    "weekly_deal_pycTfV",
+    "halo_product_block_7_K67Hpa",
+    "weekly_deal_fNeADK",
+    "halo_product_block_7_GbNKBT",
+    "weekly_deal_Dam89K",
+    "halo_product_block_7_cLkawK",
+    "weekly_deal_PkPeg3",
+    "halo_product_block_7_tEezFC",
+    "weekly_deal_43UAzQ",
+    "weekly_deal_7TTXB4",
+    "weekly_deal_mhBCxL"
+  ]
+}
