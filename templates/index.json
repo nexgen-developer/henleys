@@ -46,6 +46,7 @@
         "image_AeT7KP": {
           "type": "image",
           "name": "Base",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_Winter_Base.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Winter_Base.jpg",
@@ -80,7 +81,6 @@
         "image_Pg3Arg": {
           "type": "image",
           "name": "27th Feb (Pay Day)",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_Pay_Day_copy_eb8af2b5-3839-4ef2-becd-69d36acbac85.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Pay_Day_copy_c5122dc3-f149-4ce2-b495-439d4da27b8b.jpg",
