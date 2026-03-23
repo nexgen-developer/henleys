@@ -179,6 +179,12 @@
             "padding_bottom": 16
           }
         },
+        "linkify_product_colors_app_block_tcc9ef": {
+          "type": "shopify://apps/linkify-product-colors/blocks/app-block/1fdc741b-f4ed-4b8c-aee7-aa5e4ad76aa8",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "790a590f-6499-4b50-990d-b9029bf8c92a": {
           "type": "variant_picker",
           "settings": {
@@ -274,6 +280,7 @@
         "f06f0e4d-b085-4de7-b2f2-670031a25112",
         "c8d6642b-ed1a-4c59-bfaf-bfe77359a2ce",
         "941e6b1b-4f73-44bb-89ae-b32a2c16bc18",
+        "linkify_product_colors_app_block_tcc9ef",
         "790a590f-6499-4b50-990d-b9029bf8c92a",
         "f561bc6c-d4e8-467c-9d46-59708996af90",
         "a8c08486-8d67-4a1f-ba39-87ed8d16f407",
