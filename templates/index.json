@@ -46,7 +46,6 @@
         "image_AeT7KP": {
           "type": "image",
           "name": "Pay Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_Pay_Day_614d32d9-5934-43e0-9ae8-4557623a336a.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Pay_Day_c3b093dc-7143-41a8-9c20-93851aa14ed0.jpg",
@@ -81,6 +80,7 @@
         "image_fTqnJE": {
           "type": "image",
           "name": "Base",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_Base_3bc79ade-2c64-49c3-9035-d8cc96c13e3a.png",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_Base_b687b252-5464-4a01-9f85-debb42a2c4e0.png",
