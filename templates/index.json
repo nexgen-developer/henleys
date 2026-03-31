@@ -45,6 +45,41 @@
       "blocks": {
         "image_AeT7KP": {
           "type": "image",
+          "name": "Easter Bank Holiday",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "shop now",
+            "link": "shopify://collections/new-in",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_fkYtmM": {
+          "type": "image",
           "name": "Pay Day",
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_Pay_Day_614d32d9-5934-43e0-9ae8-4557623a336a.jpg",
@@ -115,6 +150,7 @@
       },
       "block_order": [
         "image_AeT7KP",
+        "image_fkYtmM",
         "image_fTqnJE"
       ],
       "name": "Full Width Banner",
