@@ -45,11 +45,11 @@
       "blocks": {
         "image_AeT7KP": {
           "type": "image",
-          "name": "Easter Bank Holiday",
+          "name": "Spring Season",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop.jpg",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile.jpg",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_117f928f-36e3-4774-88d1-3ee2d0878931.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_cbaf5621-fedc-4713-afa9-fffa864413ae.jpg",
             "enable_parallax": false,
             "title": "",
             "text": "",
