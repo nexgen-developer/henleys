@@ -46,6 +46,7 @@
         "image_AeT7KP": {
           "type": "image",
           "name": "Spring Season",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_Winter_Base_ef297ad7-2932-4cd4-89a3-a3a4924ba5a0.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Winter_Base_47bcbe5d-1fe2-4c6b-9409-0e219e6c6d6a.jpg",
@@ -80,7 +81,6 @@
         "image_fkYtmM": {
           "type": "image",
           "name": "Pay Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_cc5c301d-c417-4d60-9334-97fb7389ef42.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_8d50c142-d513-4e22-818b-7b0866147427.jpg",
