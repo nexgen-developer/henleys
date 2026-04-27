@@ -45,11 +45,11 @@
       "blocks": {
         "image_AeT7KP": {
           "type": "image",
-          "name": "Spring Season",
+          "name": "Bank Holiday",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_Winter_Base_ef297ad7-2932-4cd4-89a3-a3a4924ba5a0.jpg",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_Winter_Base_47bcbe5d-1fe2-4c6b-9409-0e219e6c6d6a.jpg",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_b41df73c-10ef-4cdd-8c25-927f08d52567.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_2b4efa6a-22e5-4926-a3eb-3abbd46b799a.jpg",
             "enable_parallax": false,
             "title": "",
             "text": "",
