@@ -43,13 +43,13 @@
     "e0946f9f-e0fa-47e1-908b-4866f10b1c81": {
       "type": "halo-fullwidth-banner",
       "blocks": {
-        "image_AeT7KP": {
+        "image_fTqnJE": {
           "type": "image",
-          "name": "Bank Holiday",
+          "name": "Base",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_b41df73c-10ef-4cdd-8c25-927f08d52567.jpg",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_2b4efa6a-22e5-4926-a3eb-3abbd46b799a.jpg",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_Base_3bc79ade-2c64-49c3-9035-d8cc96c13e3a.png",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_Base_b687b252-5464-4a01-9f85-debb42a2c4e0.png",
             "enable_parallax": false,
             "title": "",
             "text": "",
@@ -112,13 +112,13 @@
             "text_text_transform": "uppercase"
           }
         },
-        "image_fTqnJE": {
+        "image_AeT7KP": {
           "type": "image",
-          "name": "Base",
+          "name": "22nd May - Bank Holiday",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/SCROLLER_-_Desktop_SS25_Base_3bc79ade-2c64-49c3-9035-d8cc96c13e3a.png",
-            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_SS25_Base_b687b252-5464-4a01-9f85-debb42a2c4e0.png",
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_865a84b0-2831-4a15-89e2-58e1cc277588.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_1eb75d36-e96d-45a0-b5b1-f978e1e34d10.jpg",
             "enable_parallax": false,
             "title": "",
             "text": "",
@@ -149,9 +149,9 @@
         }
       },
       "block_order": [
-        "image_AeT7KP",
+        "image_fTqnJE",
         "image_fkYtmM",
-        "image_fTqnJE"
+        "image_AeT7KP"
       ],
       "name": "Full Width Banner",
       "settings": {
