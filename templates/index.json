@@ -81,6 +81,7 @@
         "image_fkYtmM": {
           "type": "image",
           "name": "Spring Season",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_35790677-f08a-4e80-9afc-9adc6c856dff.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_8c9146fe-0cb2-48c8-8f77-17044d71d153.jpg",
@@ -115,7 +116,6 @@
         "image_AeT7KP": {
           "type": "image",
           "name": "22nd May - Bank Holiday",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_865a84b0-2831-4a15-89e2-58e1cc277588.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_1eb75d36-e96d-45a0-b5b1-f978e1e34d10.jpg",
