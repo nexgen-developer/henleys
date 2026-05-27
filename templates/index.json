@@ -181,13 +181,49 @@
             "text_font_weight": "600",
             "text_text_transform": "uppercase"
           }
+        },
+        "image_8RE9rb": {
+          "type": "image",
+          "name": "5th June - Summer Ready",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_d03ce7d0-6774-4b34-b8cb-138a733aecf9.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_d8f8b3ff-5149-4bb4-a7ae-c5a3864a3135.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "shop now",
+            "link": "shopify://collections/new-in",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
         }
       },
       "block_order": [
         "image_fTqnJE",
         "image_fkYtmM",
         "image_AeT7KP",
-        "image_MDWVkf"
+        "image_MDWVkf",
+        "image_8RE9rb"
       ],
       "name": "Full Width Banner",
       "settings": {
