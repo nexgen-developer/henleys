@@ -116,6 +116,7 @@
         "image_AeT7KP": {
           "type": "image",
           "name": "22nd May - Bank Holiday",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_865a84b0-2831-4a15-89e2-58e1cc277588.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_1eb75d36-e96d-45a0-b5b1-f978e1e34d10.jpg",
@@ -150,7 +151,6 @@
         "image_MDWVkf": {
           "type": "image",
           "name": "29th May - Pay Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_9d2ae372-b00d-44d5-a242-609affcfaa9c.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_ad7b9af8-6a1d-4e83-ba8d-b30558e9a89d.jpg",
