@@ -151,7 +151,6 @@
         "image_3hypei": {
           "type": "image",
           "name": "19th June - Father's Day",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_05c1f64f-7a6b-4036-a2d2-3ef731d3f093.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_ad69b805-cae7-484a-a2d3-d8d6cfa5733a.jpg",
@@ -186,6 +185,7 @@
         "image_8RE9rb": {
           "type": "image",
           "name": "5th June - Summer Ready",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_d03ce7d0-6774-4b34-b8cb-138a733aecf9.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_d8f8b3ff-5149-4bb4-a7ae-c5a3864a3135.jpg",
