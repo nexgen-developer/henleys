@@ -116,7 +116,6 @@
         "image_AeT7KP": {
           "type": "image",
           "name": "3rd July - Summer Ready",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_6362867a-4705-4718-9367-cee95c7b774f.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_0182dace-db67-477a-8e89-a2c52783e53e.jpg",
@@ -151,6 +150,7 @@
         "image_eWzgrk": {
           "type": "image",
           "name": "26th June - Pay Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_ecef93df-2f31-4145-bde0-c7523e4c5aa5.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_203ae153-d472-4a1a-886e-9cf68b29e9f9.jpg",
