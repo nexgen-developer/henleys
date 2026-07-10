@@ -78,7 +78,7 @@
             "text_text_transform": "uppercase"
           }
         },
-        "image_fkYtmM": {
+        "image_bffUBH": {
           "type": "image",
           "name": "Spring Season",
           "disabled": true,
@@ -92,6 +92,41 @@
             "btn": "2",
             "btn_text": "shop now",
             "link": "shopify://collections/new-in",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_fkYtmM": {
+          "type": "image",
+          "name": "17th July - Summer Sale",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCROLLER_-_Desktop_2e6792bb-f036-4d82-ad06-010faa8316d3.jpg",
+            "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_594134b1-8490-485c-9095-bf73c1c8bdd3.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "shop now",
+            "link": "shopify://collections/clearance",
             "position": "left",
             "align": "left",
             "show_video": false,
@@ -290,6 +325,7 @@
       },
       "block_order": [
         "image_fTqnJE",
+        "image_bffUBH",
         "image_fkYtmM",
         "image_AeT7KP",
         "image_eWzgrk",
