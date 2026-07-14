@@ -110,6 +110,7 @@
             {{ "accessibility.skip_to_text" | t }}
         </a>
         {% render 'global-style' %}
+        {% render 'globo-filter-styles' %}
         {% render 'global-script' %}
         {% render 'wrapper-header' %}
         <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
@@ -167,5 +168,6 @@
     });
   </script>
 {%- capture productTemplate -%}{% render 'globo.filter.product.custom', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id="gspfProduct" type="template/html">{{- productTemplate | replace: "script>", "scripttag>" -}}</script>{%- endunless -%}
+{% render 'flair-collection-scroll' %}
 	</body>
 </html>
