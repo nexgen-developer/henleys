@@ -10,8 +10,12 @@
             assign color_modify_2 = section.settings.color_modify_2
         endif
         assign show_sticky_header = section.settings.show_sticky_header
+        assign sticky_header_scroll_up = false
         if show_sticky_header
             assign sticky_header_type = section.settings.sticky_header_type
+            if sticky_header_type == 'up' or sticky_header_type == 'always'
+                assign sticky_header_scroll_up = true
+            endif
         endif
         assign header_top_bg = section.settings.header_top_bg
         assign header_top_color = section.settings.header_top_color
@@ -379,7 +383,7 @@
                     background: {{ header_mobile_bg | color_modify: 'alpha', color_modify_mobile }}!important;
                 }
 
-                {%- if show_sticky_header and sticky_header_type == 'up' -%}
+                {%- if sticky_header_scroll_up -%}
                     .shopify-section-header .header-mobile{
                         position: relative;
                         top: unset;
@@ -874,7 +878,7 @@
                     transition: background .3s;
                 }
 
-                {%- if show_sticky_header and sticky_header_type == 'up' -%}
+                {%- if sticky_header_scroll_up -%}
                     .shopify-section-header .header{
                         position: relative;
                         top: unset;

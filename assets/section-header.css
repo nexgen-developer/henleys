@@ -85,6 +85,12 @@
         transform: translateY(-100%);
     }
 
+    @media (max-width: 1024px) {
+        .shopify-section-header:has(.sticky-header--always-mobile).shopify-section-header-hidden {
+            transform: none;
+        }
+    }
+
     #shopify-section-header.animate,
     [id^='shopify-section-header-'].animate {
         transition: transform 0.15s ease-out;

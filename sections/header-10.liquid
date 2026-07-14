@@ -72,7 +72,7 @@
    body .scrolling-text__inner{gap:1%;}
   }
 </style>
-<{% if section.settings.show_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper">
+<{% if section.settings.show_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper{% if section.settings.show_sticky_header and section.settings.sticky_header_type == 'always' %} sticky-header--always-mobile{% endif %}"{% if section.settings.show_sticky_header %} data-sticky-type="{{ section.settings.sticky_header_type }}"{% endif %}>
 	<header class="header header-10 header-inline header-monochrome{% if section.settings.menu != blank %} header--has-menu{% endif %}">
 		{%- liquid
             assign has_top_header = false
@@ -451,6 +451,7 @@
             this.headerBounds = {};
             this.currentScrollTop = 0;
             this.preventReveal = false;
+            this.stickyType = this.dataset.stickyType || 'up';
 
             if (!this.header.querySelector('.header-sticky')) {
                 this.onScrollHandler = this.onScroll.bind(this);
@@ -481,8 +482,29 @@
             observer.observe(this.header);
         }
 
+        isMobileViewport() {
+            return window.innerWidth <= 1024;
+        }
+
+        isAlwaysShowMobile() {
+            return this.stickyType === 'always' && this.isMobileViewport();
+        }
+
         onScroll() {
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (this.isAlwaysShowMobile()) {
+                if (scrollTop > this.headerBounds.bottom) {
+                    if (!document.body.classList.contains('open-search')) {
+                        requestAnimationFrame(this.reveal.bind(this));
+                    }
+                } else if (scrollTop <= this.headerBounds.top) {
+                    requestAnimationFrame(this.reset.bind(this));
+                }
+
+                this.currentScrollTop = scrollTop;
+                return;
+            }
 
             if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
                 if(!document.body.classList.contains('open-search')){
@@ -661,6 +683,10 @@
                 {
                     "value": "down",
                     "label": "t:sections.header.settings.general.options__2"
+                },
+                {
+                    "value": "always",
+                    "label": "t:sections.header.settings.general.options__3"
                 }]
             },
 		    {
