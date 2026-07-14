@@ -3180,6 +3180,10 @@
                 currentPagination.replaceWith(newPagination);
 
                 $('[data-total-start]').text(1);
+
+                if (typeof window.refreshFlairCollectionBadges === 'function') {
+                    window.refreshFlairCollectionBadges(currentProductListing[0]);
+                }
                 
                 if(window.compare.show){
                     Shopify.ProductCompare.setLocalStorageProductForCompare();

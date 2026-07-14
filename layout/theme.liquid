@@ -139,34 +139,6 @@
 	
     {% include 'globo.filter.action' %}
 
-<script>
-    // Flair app should be loaded automatically by Shopify app system
-    // Wait for Flair app to load and then refresh badges
-    function waitForFlairApp() {
-      if (typeof FlairApp !== 'undefined' && FlairApp.refreshProductBadges) {
-        console.log('[Flair] App found, refreshing badges');
-        FlairApp.refreshProductBadges();
-      } else {
-        console.log('[Flair] App not loaded yet, retrying...');
-        setTimeout(waitForFlairApp, 500);
-      }
-    }
-    
-    window.addEventListener('globoFilterRenderCompleted', function (e) {
-      try {
-        waitForFlairApp();
-      } catch(e) { console.log("[Flair] Error refreshing badges", e); }
-    });
-    
-    // Also refresh badges on page load
-    document.addEventListener('DOMContentLoaded', function() {
-      setTimeout(function() {
-        try {
-          waitForFlairApp();
-        } catch(e) { console.log("[Flair] Error refreshing badges on load", e); }
-      }, 1000);
-    });
-  </script>
 {%- capture productTemplate -%}{% render 'globo.filter.product.custom', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id="gspfProduct" type="template/html">{{- productTemplate | replace: "script>", "scripttag>" -}}</script>{%- endunless -%}
 {% render 'flair-collection-scroll' %}
 	</body>
