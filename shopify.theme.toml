@@ -1,0 +1,16 @@
+# Henleys — Shopify theme environments
+# Registry: /Users/andrewdouglas/Shopify/SHOPIFY-CLIENTS.md
+# Path: /Users/andrewdouglas/Shopify/henleys
+# Git: https://github.com/nexgen-developer/henleys
+
+[environments.default]
+store = "3dc1b9-24.myshopify.com"
+theme = "196381606227"  # Shopify theme: henleys/main [live]
+
+[environments.main]
+store = "3dc1b9-24.myshopify.com"
+theme = "196381606227"  # Shopify theme: henleys/main [live]
+
+[environments.staging]
+store = "3dc1b9-24.myshopify.com"
+theme = "203355423059"  # Shopify theme: henleys/staging [unpublished]
