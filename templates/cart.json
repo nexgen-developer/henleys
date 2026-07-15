@@ -24,6 +24,7 @@
         },
         "c1337e87-e492-4590-8c68-f02cc92d8a94": {
           "type": "cart_note",
+          "disabled": true,
           "settings": {
             "padding_top": 0,
             "padding_bottom": 0
@@ -82,6 +83,8 @@
         "block_title": "Related Products",
         "block_text": "",
         "block_title_align": "center",
+        "button_label": "",
+        "button_link": "",
         "block_layout": "slider",
         "col": "narrow",
         "block_collection": "new-in",
