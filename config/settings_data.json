@@ -1857,6 +1857,11 @@
         "type": "shopify://apps/brevo-pushowl/blocks/pushowl-app-embed-3d2ff2b5/fa20c3ba-38bf-43e0-ba5c-431f6ae07d95",
         "disabled": false,
         "settings": {}
+      },
+      "18131037017812181619": {
+        "type": "shopify://apps/mailchimp-email-sms/blocks/mailchimp_for_shopify_script/e3b67dce-fd41-4b61-b3cf-961c12344cde",
+        "disabled": false,
+        "settings": {}
       }
     }
   }
