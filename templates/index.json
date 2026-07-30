@@ -116,7 +116,6 @@
         "image_fkYtmM": {
           "type": "image",
           "name": "31st July - Pay Day x Summer Sale",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_00c6d3a4-1904-4507-82db-44ed7954c228.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_a9e19a44-f56d-46aa-aa31-95b628832bd2.jpg",
@@ -151,6 +150,7 @@
         "image_U9VziU": {
           "type": "image",
           "name": "17th July - Summer Sale",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_2e6792bb-f036-4d82-ad06-010faa8316d3.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_594134b1-8490-485c-9095-bf73c1c8bdd3.jpg",
