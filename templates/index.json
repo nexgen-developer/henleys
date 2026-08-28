@@ -116,7 +116,6 @@
         "image_fkYtmM": {
           "type": "image",
           "name": "28th August - Last Chance",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_a6f8c64b-8163-4443-b877-bf244da3620a.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_4ba6a1e2-0900-4fda-8aa2-e7d065612780.jpg",
@@ -151,6 +150,7 @@
         "image_jFDzxz": {
           "type": "image",
           "name": "14th August - Summer Sale Ending Soon",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_a5aa563a-1279-4a1b-9013-2dddd405551d.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_8f5066b3-ac5c-42c6-9f08-399a7e52e771.jpg",
