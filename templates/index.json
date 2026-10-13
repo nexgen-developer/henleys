@@ -46,7 +46,6 @@
         "image_fTqnJE": {
           "type": "image",
           "name": "AW26 Base",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_d68396d9-315c-4d95-a70f-ceda2877a3ad.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_3c7526ce-69ff-4570-af05-786c08912824.jpg",
@@ -81,6 +80,7 @@
         "image_fkYtmM": {
           "type": "image",
           "name": "25th September - Pay Day",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_2edb1e7e-5a12-4451-bd7e-7b8fa4e191ac.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_b4b83e58-e18b-46b4-aab2-59517c2aea6b.jpg",
