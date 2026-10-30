@@ -46,6 +46,7 @@
         "image_fTqnJE": {
           "type": "image",
           "name": "AW26 Base",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/SCROLLER_-_Desktop_d68396d9-315c-4d95-a70f-ceda2877a3ad.jpg",
             "mobile_image": "shopify://shop_images/SCROLLER_-_Mobile_3c7526ce-69ff-4570-af05-786c08912824.jpg",
@@ -80,7 +81,6 @@
         "image_FPN8Cd": {
           "type": "image",
           "name": "30th October - Black Friday Month",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Henleys-Desktop.jpg",
             "mobile_image": "shopify://shop_images/Henleys-Mobile.jpg",
