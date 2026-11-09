@@ -139,6 +139,59 @@
         "layout": "1"
       }
     },
+    "halo_fullwidth_banner_44rk3J": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_j7YcyU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Henleys-Desktop-Banner.png",
+            "mobile_image": "shopify://shop_images/Henleys-Mobile-Banner.png",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#FFFFFF",
+            "title_color": "#FFFFFF",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_j7YcyU"
+      ],
+      "name": "t:sections.fullwidth-banner.presets.name",
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
     "flair-banners-collection": {
       "type": "flair-banners",
       "settings": {}
@@ -324,6 +377,7 @@
   "order": [
     "db7096be-e358-4fc3-8c65-d810472d5c81",
     "header-collection",
+    "halo_fullwidth_banner_44rk3J",
     "flair-banners-collection",
     "product-grid",
     "footer-collection",
