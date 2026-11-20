@@ -145,6 +145,60 @@
         "image_j7YcyU": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Henleys-Desktop-Banner_7290773f-a7a1-48b0-8e84-74e77350b713.png",
+            "mobile_image": "shopify://shop_images/Henleys-Mobile-Banner_8684e733-434f-40df-930b-e5be54fd1ad4.png",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "",
+            "link": "shopify://collections/new-in",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "image_j7YcyU"
+      ],
+      "disabled": true,
+      "name": "Black Friday",
+      "settings": {
+        "show_fullwidth_banner": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "padding_top_section": 20,
+        "show_hoverImage": false
+      }
+    },
+    "halo_fullwidth_banner_zJBah4": {
+      "type": "halo-fullwidth-banner",
+      "blocks": {
+        "image_WgrWUW": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/Henleys-Desktop-Banner.png",
             "mobile_image": "shopify://shop_images/Henleys-Mobile-Banner.png",
             "enable_parallax": false,
@@ -163,8 +217,8 @@
             "video_mp4_link": "",
             "transparent_button": false,
             "background_color": "",
-            "text_color": "#FFFFFF",
-            "title_color": "#FFFFFF",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
             "title_font": "font_2",
             "title_font_size": 26,
             "title_mobile_font_size": 20,
@@ -177,9 +231,9 @@
         }
       },
       "block_order": [
-        "image_j7YcyU"
+        "image_WgrWUW"
       ],
-      "name": "t:sections.fullwidth-banner.presets.name",
+      "name": "Black Friday Month",
       "settings": {
         "show_fullwidth_banner": true,
         "padding_top": 0,
@@ -378,6 +432,7 @@
     "db7096be-e358-4fc3-8c65-d810472d5c81",
     "header-collection",
     "halo_fullwidth_banner_44rk3J",
+    "halo_fullwidth_banner_zJBah4",
     "flair-banners-collection",
     "product-grid",
     "footer-collection",
