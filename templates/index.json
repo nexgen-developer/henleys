@@ -80,6 +80,41 @@
         },
         "image_FPN8Cd": {
           "type": "image",
+          "name": "18th December - Sale",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Henleys-Desktop_ac73ac4f-b9e1-45db-975d-a33fa22e35cd.jpg",
+            "mobile_image": "shopify://shop_images/Henleys-Mobile_8a84e329-43e6-4332-b1d8-db21c5999259.jpg",
+            "enable_parallax": false,
+            "title": "",
+            "text": "",
+            "subtitle": "",
+            "btn": "2",
+            "btn_text": "shop now",
+            "link": "shopify://collections/clearance",
+            "position": "left",
+            "align": "left",
+            "show_video": false,
+            "video_style": "1",
+            "video_id": "video_youtube",
+            "video_link": "_9VUPq3SxOc",
+            "video_mp4_link": "",
+            "transparent_button": false,
+            "background_color": "",
+            "text_color": "#ffffff",
+            "title_color": "#ffffff",
+            "title_font": "font_2",
+            "title_font_size": 26,
+            "title_mobile_font_size": 20,
+            "title_font_weight": "700",
+            "title_text_transform": "none",
+            "text_font_size": 14,
+            "text_font_weight": "600",
+            "text_text_transform": "uppercase"
+          }
+        },
+        "image_EnAgcR": {
+          "type": "image",
           "name": "30th October - Black Friday Month",
           "settings": {
             "image": "shopify://shop_images/Henleys-Desktop.jpg",
@@ -115,7 +150,8 @@
       },
       "block_order": [
         "image_fTqnJE",
-        "image_FPN8Cd"
+        "image_FPN8Cd",
+        "image_EnAgcR"
       ],
       "name": "Full Width Banner",
       "settings": {
