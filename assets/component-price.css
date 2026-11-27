@@ -147,10 +147,3 @@ body.dark-mode .halo-recently-viewed-popup .price.price--on-sale .price-item--sa
 body.dark-mode .product-edit-item .price.price--on-sale .price-item--sale .money{
     filter: invert(0);
 }
-
-.productView-price-duties {
-    margin: 6px 0 0;
-    font-size: 12px;
-    line-height: 1.4;
-    color: #666;
-}
